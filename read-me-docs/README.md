@@ -13,4 +13,8 @@ added footer links for social media.
 started to work on the styling fixed the broken links, had the text not in the <a> tags also fixed styling for css. noticed i hadn't put the direct file path in.
 added border radius to nav links to make it look more appealing still figuring out how to make the nav bar not take the full top header, tried positioning etc. still figuring out.
 
-managed to get the nav bar looking somewhat relative to my wireframe still currently working on the styling going to be adding in the footer soon, feeling overwhelmed with the nav bar 
+managed to get the nav bar looking somewhat relative to my wireframe still currently working on the styling going to be adding in the footer soon, feeling overwhelmed with the nav bar.
+
+worked on hero-text and positioned it into the middle of the page.
+
+working on styling footer to have text items go from left to right instead of a list 

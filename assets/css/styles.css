@@ -95,3 +95,12 @@ footer {
     list-style-type: none;
 text-decoration: none;
 }
+
+.social-footer li {
+    display: inline-block;
+    margin-right: 10px;
+padding: 20px;}
+
+
+/*hero image */
+.gallery-text{text-transform: uppercase;}
