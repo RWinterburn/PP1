@@ -31,3 +31,5 @@ managed to make background color a bit darker using code from chat gpt code ( bo
     background: rgba(0, 0, 0, 0.5); 
     z-index: -1;
   })
+
+  imported google fonts link and removed background color from nav bar and added a border.
