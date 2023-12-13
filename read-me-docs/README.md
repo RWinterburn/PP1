@@ -18,3 +18,5 @@ managed to get the nav bar looking somewhat relative to my wireframe still curre
 worked on hero-text and positioned it into the middle of the page.
 
 working on styling footer to have text items go from left to right instead of a list 
+
+managed to add my background image to the webpage I was using the wrong file path should have been ../ and not url() positioning is still a bit off so going to work on that 
