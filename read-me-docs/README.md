@@ -20,3 +20,14 @@ worked on hero-text and positioned it into the middle of the page.
 working on styling footer to have text items go from left to right instead of a list 
 
 managed to add my background image to the webpage I was using the wrong file path should have been ../ and not url() positioning is still a bit off so going to work on that 
+
+managed to make background color a bit darker using code from chat gpt code ( body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+  })
