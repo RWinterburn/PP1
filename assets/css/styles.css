@@ -1,8 +1,14 @@
 
 body, h1, h2, h3, p, ul {
+    
     margin: 0;
     padding: 0;
 }
+/*background*/
+body{ background-image: url(../imgs/background.JPG);
+background-size: fit;
+background-position: center 30%;
+background-repeat: no-repeat;}
 
 
 /*img logo*/
@@ -29,6 +35,7 @@ nav {
     justify-content: flex-end; 
     align-items: center;
     
+    
 
 }
 
@@ -46,6 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-size: larger;
     text-decoration: none;
     color: white;
     padding: 30px;
