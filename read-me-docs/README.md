@@ -41,4 +41,15 @@ managed to make background color a bit darker using code from chat gpt code ( bo
   managed to hide the scroll bar with the overflow:hidden on my background image 
   removed the text decoration from gallery text and added about page, going to change the design for about and add a packages section and about me section about photographer. 
 
-  added a contact form still need to style.
+  added a contact form still need to style. 
+  also added more pages and set the action of the form to "mail to" still having trouble with codeanywhere being slow.
+
+  Still working on basic structure getting everything positioned and then will begin styling.
+
+  The objective of the webpage is to get more bookings and advertise the photographers work.
+
+  To do this im creating a website including a gallery and a contact form also an about section to get to know the photographer.
+
+the functional specs and content required will be a contact form requiring name and email and a short message.
+
+Im also considering adding different package options to the form which will be seperated into Headshots, landscape and weddings, I will include a radio form in my contact form to achieve this
