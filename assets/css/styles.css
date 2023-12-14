@@ -125,6 +125,14 @@ text-decoration: none;
     margin-right: 10px;
 padding: 20px;}
 
+/*footer social links*/
+.social-footer li a { display: inline-block;
+font-size: 40px;
+color:white;}
+
 
 /*hero image */
-.gallery-text{text-transform: uppercase;}
+.gallery-text a {text-transform: uppercase;
+text-decoration: none;
+color: #ffffff;
+}

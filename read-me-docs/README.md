@@ -32,6 +32,11 @@ managed to make background color a bit darker using code from chat gpt code ( bo
     z-index: -1;
   })
 
+  14/12/2023
+
+  Had to move back to code anywhere because of gitpod.io limit 
+
   imported google fonts link and removed background color from nav bar and added a border. 
 
   managed to hide the scroll bar with the overflow:hidden on my background image 
+  removed the text decoration from gallery text and added about page, going to change the design for about and add a packages section and about me section about photographer
