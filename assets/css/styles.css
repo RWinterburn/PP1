@@ -136,3 +136,14 @@ color:white;}
 text-decoration: none;
 color: #ffffff;
 }
+
+/* about me page */
+
+.row {margin-top: 150px;
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px; /* Optional: Add padding for spacing between columns */
+}
