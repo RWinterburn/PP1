@@ -39,4 +39,6 @@ managed to make background color a bit darker using code from chat gpt code ( bo
   imported google fonts link and removed background color from nav bar and added a border. 
 
   managed to hide the scroll bar with the overflow:hidden on my background image 
-  removed the text decoration from gallery text and added about page, going to change the design for about and add a packages section and about me section about photographer
+  removed the text decoration from gallery text and added about page, going to change the design for about and add a packages section and about me section about photographer. 
+
+  added a contact form still need to style.

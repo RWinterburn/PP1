@@ -147,3 +147,13 @@ color: #ffffff;
     flex: 1;
     padding: 20px; /* Optional: Add padding for spacing between columns */
 }
+
+
+/* contact form*/ 
+.form{position: absolute;
+    top:2rem;
+    border: 5px solid;
+    margin-top:50px;
+    width: 50%;
+    padding: 10px;
+  }
