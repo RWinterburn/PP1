@@ -180,7 +180,7 @@ footer {
 .message {
   position: absolute;
   right: 50%;
-  bottom: 40%;
+  bottom: 25%;
   background-color: rgba(250, 235, 215, 0.205);
   border-radius: 5%;
   font-size: 40px;
