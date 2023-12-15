@@ -142,6 +142,12 @@ footer {
 /* about me page */
 
 /*contact form*/
+
+.contact-form-message {
+  position: relative;
+  left: 25%;
+}
+
 .form {
   position: relative;
   display: flex;
