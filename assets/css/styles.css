@@ -143,9 +143,15 @@ footer {
 /*contact form*/
 .form {
   position: relative;
-  left: 40%;
   display: flex;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: antiquewhite;
+  width: 10%;
+  left: 45%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .form label {
