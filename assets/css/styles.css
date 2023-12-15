@@ -110,6 +110,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  margin-top: 40px;
 }
 
 .social-footer {
@@ -168,4 +169,12 @@ footer {
 }
 
 .form input {
+}
+
+.message {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  background-color: rgba(250, 235, 215, 0.205);
+  border-radius: 5%;
 }
