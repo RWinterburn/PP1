@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #555;
+  background-color: rgba(250, 235, 215, 0.349);
   border-radius: 10%;
 }
 

@@ -90,4 +90,11 @@ margin-bottom: 16px;
         padding: 10px;
     }
 
-} didnt like the styling of the default form
+didnt like the styling of the default form.
+
+added padding to the contact form and position to make it look more visually appealing with a border radius of 5% to make the corners more rounded and fit the aestethic of the webpage
+
+changed the background color of the footer to match the visual of the website and changed the padding value so its not suffocating the page
+added a message on the side of the contact form, also changed the padding and sizing for the message text
+fixed background image changing on different page using "background attachment fixed" found this line of code on
+https://www.w3schools.com/cssref/pr_background-position.php
