@@ -40,12 +40,12 @@ body {
 nav {
   color: rgb(255, 255, 255);
   align-items: center;
-  padding: 30px;
+  padding: 1px;
   margin: 50px;
-  width: 40%;
+  width: 90%;
   position: fixed;
   top: 20px;
-  right: 80px;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
