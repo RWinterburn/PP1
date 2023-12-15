@@ -147,13 +147,16 @@ footer {
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: antiquewhite;
-  width: 10%;
-  left: 50px;
-  margin-top: 200px;
-
   padding-left: 50px;
   padding-right: 50px;
+  background-color: rgba(250, 235, 215, 0.205);
+  width: 10%;
+  left: 100px;
+  margin-top: 300px;
+  border-radius: 5%;
+  border: solid;
+  border-width: 2px;
+  border-color: aliceblue;
 }
 
 .form label {
