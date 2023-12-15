@@ -20,7 +20,7 @@ body::before {
 body {
   background-image: url(../imgs/background.JPG);
   overflow: hidden;
-  background-size: fit;
+  background-size: cover;
   background-position: center 30%;
   background-repeat: no-repeat;
 }
@@ -149,7 +149,8 @@ footer {
   padding-bottom: 50px;
   background-color: antiquewhite;
   width: 10%;
-  left: 45%;
+  left: 30%;
+
   padding-left: 50px;
   padding-right: 50px;
 }
