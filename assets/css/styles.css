@@ -149,7 +149,8 @@ footer {
   padding-bottom: 50px;
   background-color: antiquewhite;
   width: 10%;
-  left: 30%;
+  left: 50px;
+  margin-top: 200px;
 
   padding-left: 50px;
   padding-right: 50px;
@@ -158,4 +159,5 @@ footer {
 .form label {
   display: block;
   margin-bottom: 8px;
+  align-items: center;
 }
