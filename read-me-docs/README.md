@@ -77,3 +77,17 @@ margin-bottom: 8px;
     .form button {
         padding: 10px;
     }
+
+removed " .form input,
+.form textarea {
+width: 100%;
+padding: 8px;
+box-sizing: border-box;
+margin-bottom: 16px;
+}
+
+    .form button {
+        padding: 10px;
+    }
+
+} didnt like the styling of the default form
