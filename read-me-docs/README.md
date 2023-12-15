@@ -98,3 +98,14 @@ changed the background color of the footer to match the visual of the website an
 added a message on the side of the contact form, also changed the padding and sizing for the message text
 fixed background image changing on different page using "background attachment fixed" found this line of code on
 https://www.w3schools.com/cssref/pr_background-position.php
+
+changed the fontsize added padding and changed the colour of the text for the form
+changed the padding of the nav bar to 1px also made the width 90%
+
+removed the margin from the nav and flex end changed width to 50%
+changed position of nav bar to be in the center may add margin back
+added overflow hidden so the hover peusdo class doesnt overlap the bar
+
+changed footer paddding to 1px
+
+going to work on the gallery next and add a scrolling gallery maybe with an option to see the bigger photo with the target \_blank attribute maybe
