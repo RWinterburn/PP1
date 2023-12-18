@@ -109,3 +109,8 @@ added overflow hidden so the hover peusdo class doesnt overlap the bar
 changed footer paddding to 1px
 
 going to work on the gallery next and add a scrolling gallery maybe with an option to see the bigger photo with the target \_blank attribute maybe
+
+
+17/12/2023
+
+opened website on new device so need to sort out the resizing styling in css will achieve this with @media queries if this method doesnt work i will use bootstrap columns maybe but im sure that will involve in changing all columns in the workspace.
