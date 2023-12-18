@@ -114,3 +114,6 @@ going to work on the gallery next and add a scrolling gallery maybe with an opti
 17/12/2023
 
 opened website on new device so need to sort out the resizing styling in css will achieve this with @media queries if this method doesnt work i will use bootstrap columns maybe but im sure that will involve in changing all columns in the workspace.
+
+18/12/2023
+added viewport height and width onto body elements its worked somewhat but there are still errors so need to work on resolving these 
