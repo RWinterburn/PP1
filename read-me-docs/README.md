@@ -110,10 +110,13 @@ changed footer paddding to 1px
 
 going to work on the gallery next and add a scrolling gallery maybe with an option to see the bigger photo with the target \_blank attribute maybe
 
-
 17/12/2023
 
 opened website on new device so need to sort out the resizing styling in css will achieve this with @media queries if this method doesnt work i will use bootstrap columns maybe but im sure that will involve in changing all columns in the workspace.
 
 18/12/2023
-added viewport height and width onto body elements its worked somewhat but there are still errors so need to work on resolving these 
+added viewport height and width onto body elements its worked somewhat but there are still errors so need to work on resolving these
+
+19/12/2023
+still having problems with the footer, tried absolute, static and relative positioning to no avail, think it might be something to do with the div placement or lack of.
+Hoping all these reps are going to git hub recently transferred onto vscode and noticing some little bits missing.
