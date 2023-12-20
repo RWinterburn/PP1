@@ -120,3 +120,5 @@ added viewport height and width onto body elements its worked somewhat but there
 19/12/2023
 still having problems with the footer, tried absolute, static and relative positioning to no avail, think it might be something to do with the div placement or lack of.
 Hoping all these reps are going to git hub recently transferred onto vscode and noticing some little bits missing.
+
+fixed the footer on the index.html page decided to add a div outside the footer then gave it a class name of .footer-container and changed the styling on the css to make it positioned at the bottom and stretched out with inline block.
