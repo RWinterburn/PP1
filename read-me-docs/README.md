@@ -172,3 +172,19 @@ width: 50%;
 changed background colour on the div container from #555 to rgba(250, 235, 215, 0.205) to make it more fitting with the page
 
 moved position of the gallery element down but now is going into the footer, removed padding top from footer so it doesn't overlap with content
+
+added text to the gallery.html page <h3 class="gallery-text-scroll">Some of my recent work</h3>
+added this css to the gallery text scroll to make users aware of what they are scrolling
+
+position: absolute;
+left: 475px;
+margin-top: 100px;
+width: 50%;
+text-align: center;
+letter-spacing: 2px;
+font-size: larger;
+color: #ffffff;
+text-transform: uppercase;
+border: solid;
+border-width: 2px;
+border-radius: 10px;
