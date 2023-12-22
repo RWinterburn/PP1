@@ -221,3 +221,5 @@ text-align: center;
 added a row and columns for the about me page.
 
 added column-gap to row.
+
+starting to not like how I've set out the gallery
