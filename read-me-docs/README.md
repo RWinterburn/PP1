@@ -168,3 +168,7 @@ may adjust to fit more onto the page
 fixed the html gallery being off center finding code from https://blog.hubspot.com/website/center-div-css
 margin: 0;
 width: 50%;
+
+changed background colour on the div container from #555 to rgba(250, 235, 215, 0.205) to make it more fitting with the page
+
+moved position of the gallery element down but now is going into the footer, removed padding top from footer so it doesn't overlap with content
