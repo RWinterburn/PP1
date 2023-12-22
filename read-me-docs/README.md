@@ -219,3 +219,5 @@ text-align: center;
 }
 
 added a row and columns for the about me page.
+
+added column-gap to row.
