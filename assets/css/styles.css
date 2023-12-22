@@ -187,6 +187,10 @@ footer {
   border-radius: 5px;
 }
 
+#photos {
+  margin-top: -1px;
+}
+
 /*contact form*/
 
 .contact-form-message {
