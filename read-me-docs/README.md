@@ -122,3 +122,49 @@ still having problems with the footer, tried absolute, static and relative posit
 Hoping all these reps are going to git hub recently transferred onto vscode and noticing some little bits missing.
 
 fixed the footer on the index.html page decided to add a div outside the footer then gave it a class name of .footer-container and changed the styling on the css to make it positioned at the bottom and stretched out with inline block.
+
+22/12/2023
+
+fixed the small gap on the footer by adding
+position: fixed;
+bottom: 0;
+to the footer css
+
+couldn't scroll on the webpage so changed the css body overflow:hidden to overflow-x:hidden so I can still scroll vertical solution found here https://www.quora.com/Why-cant-I-scroll-on-my-HTML-website-1#:~:text=There%20are%20a%20few%20possible%20reasons%20why%20you%20are%20not,%2Dheight'%20set%20too%20low.
+
+made the gallery using
+
+ <div class="scroll-container">
+      <img src="assets/imgs/beach.JPG" alt="Beach" />
+      <img src="assets/imgs/felix-1.JPG" alt="Dog" />
+      <img src="assets/imgs/felix-beach.JPG" alt="Dog on beach" />
+      <img src="assets/imgs/garden-party.JPG" alt="Garden party" />
+      <img src="assets/imgs/miles-blur.JPG" alt="picture of man" />
+      <img src="assets/imgs/richard.JPG" alt="man with sunglasses" />
+    </div>
+
+div.scroll-container {
+background-color: #333;
+overflow: auto;
+white-space: nowrap;
+padding: 10px;
+}
+
+div.scroll-container img {
+padding: 10px;
+}
+
+from https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp
+
+fixed the photos from being too stretched in the gallery container with height: fit-content;
+width: fit-content;
+width: 500px;
+height: 400px;
+padding: 10px;
+padding-top: 10px
+
+may adjust to fit more onto the page
+
+fixed the html gallery being off center finding code from https://blog.hubspot.com/website/center-div-css
+margin: 0;
+width: 50%;

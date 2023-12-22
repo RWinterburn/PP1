@@ -20,7 +20,7 @@ body::before {
 }
 body {
   background-image: url(../imgs/background.JPG);
-  overflow: hidden;
+  overflow-x: hidden;
   background-size: cover;
   background-position: center 30%;
   background-repeat: repeat;
@@ -105,17 +105,19 @@ nav ul li a:hover {
 
 /*footer*/
 .footer-container {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   display: inline-block;
   width: 100%;
+  margin: auto;
 }
 
 footer {
   background-color: rgba(250, 235, 215, 0.349);
   color: white;
   padding-top: 20px;
-
+  position: absolute;
+  bottom: 0;
   text-align: center;
 
   width: 100%;
@@ -195,3 +197,26 @@ footer {
 }
 
 /*media queries*/
+
+/*gallery*/
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  left: 475px;
+  height: 500px;
+  margin: 0;
+  width: 50%;
+}
+
+div.scroll-container img {
+  height: fit-content;
+  width: fit-content;
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  padding-top: 10px;
+}
