@@ -188,3 +188,14 @@ text-transform: uppercase;
 border: solid;
 border-width: 2px;
 border-radius: 10px;
+
+---
+
+to do list:
+add about info
+remove camera logo from corner of other webpages
+make gallery link have an underline with the hover puesdo
+add border to gallery scroll
+
+check the marking criteria
+start modifying for media queries and different screensizes
