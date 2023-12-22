@@ -199,3 +199,23 @@ add border to gallery scroll
 
 check the marking criteria
 start modifying for media queries and different screensizes
+
+added text decoration and hover element to gallery-text a going to resize font to make more appealing.
+
+changed the index.html page so the photographers name is not in the gallery div and made it its own div also styled the gallery text with the hover peusdo .photo-name {
+text-transform: uppercase;
+text-decoration: none;
+color: #ffffff;
+font-size: 30px;
+position: relative;
+
+text-align: center;
+}
+
+<div class="photo-name"><h1>Robert Winterburn Photography</h1></div>
+.gallery-text a:hover {
+  text-decoration: underline;
+
+}
+
+added a row and columns for the about me page.

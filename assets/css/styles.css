@@ -147,9 +147,40 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
+  font-size: 55px;
+}
+
+.gallery-text a:hover {
+  text-decoration: underline;
+}
+
+.photo-name {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 30px;
+  position: relative;
+
+  text-align: center;
 }
 
 /* about me page */
+
+.row {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  left: 25%;
+  text-align: center;
+  height: 50%;
+  background-color: ;
+}
+.column {
+  flex: 50%;
+  background-color: rgba(250, 235, 215, 0.349);
+}
 
 /*contact form*/
 
