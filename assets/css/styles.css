@@ -183,6 +183,7 @@ footer {
   align-items: center;
   font-size: larger;
   font-weight: 300;
+  color: #ffffff;
 }
 
 .message {
@@ -218,7 +219,8 @@ div.scroll-container img {
   width: fit-content;
   width: 500px;
   height: 400px;
-  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .gallery-text-scroll {
