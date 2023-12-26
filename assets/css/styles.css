@@ -44,7 +44,7 @@ body {
 .nav-bar {
   display: flex;
   width: 100%;
-  background-color: aliceblue;
+  background-color: rgba(250, 235, 215, 0.349);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -59,8 +59,8 @@ body {
 
 /* code from https://reintech.io/blog/creating-responsive-dropdown-menu-css */
 .dropbtn {
-  background-color: rgba(0, 0, 0, 0.349);
-  color: rgb(255, 0, 0);
+  background-color: rgba(250, 235, 215, 0.349);
+  color: rgb(255, 255, 255);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -74,11 +74,11 @@ body {
 .dropdown-content {
   display: none;
   position: relative;
-  background-color: rgb(250, 235, 215);
+  background-color: rgba(250, 235, 215, 0.349);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-
-  width: 100%;
+  float: right;
+  width: 50px;
   height: 100%;
 }
 
@@ -89,6 +89,8 @@ body {
   text-decoration: none;
   display: block;
   justify-content: center;
+  margin-top: 0;
+  z-index: 2;
 }
 
 .dropdown:hover .dropdown-content {
@@ -110,6 +112,7 @@ footer {
 }
 
 .social-footer {
+  margin-top: 10%;
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
@@ -155,4 +158,53 @@ footer {
   width: 50%;
   padding: 5%;
   border-radius: 5px;
+}
+
+/*contact form*/
+
+.contact-form-message {
+}
+
+.form {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(250, 235, 215, 0.205);
+  width: 50%;
+  left: 10%;
+  top: 15%;
+  align-items: center
+
+  margin-top: ;
+  margin-bottom: auto;
+  border-radius: 5%;
+  border: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+ 
+  font-size: larger;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.message {
+  display: none;
+  position: absolute;
+  right: 50%;
+  bottom: 25%;
+  background-color: rgba(250, 235, 215, 0.205);
+  border-radius: 5%;
+  font-size: 40px;
+  padding: 10px;
+  color: #ffffff;
+ 
 }
