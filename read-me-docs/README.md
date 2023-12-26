@@ -230,4 +230,4 @@ need to make the website mobile responsive may consider using bootstrap instead 
 
 going to start making the website responsive.
 
-added
+added footer into mobile design also changed the nav bar into a dropdown button, restyling all the content for mobile

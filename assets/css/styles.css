@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Poppins:wght@300&family=Rethink+Sans&family=Roboto:wght@300&display=swap");
+
+.container {
+  width: 100%;
+}
 body {
   font-family: poppins, roboto;
 
   margin: 0;
   padding: 0;
-}
-
-.container {
-  width: 100%;
 }
 
 /*background mobile*/
@@ -21,6 +21,8 @@ body::before {
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: -1;
+
+  width: 100%;
 }
 
 body {
@@ -31,22 +33,38 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   overflow-y: scroll;
+  width: 100%;
 }
 
+/* top header*/
+.nav-bar {
+  display: inline-block;
+  width: 100%;
+  background-color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-bar h1 {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
 /*dropdown menu nav*/
 
 /* code from https://reintech.io/blog/creating-responsive-dropdown-menu-css */
 .dropbtn {
-  background-color: rgba(250, 235, 215, 0.349);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.349);
+  color: rgb(255, 0, 0);
   padding: 16px;
   font-size: 16px;
   border: none;
   position: relative;
   right: 10px;
-
-  margin-left: 85%;
-  margin-top: 0%;
+  border-radius: 10%;
+  margin-left: 80%;
+  margin-top: -5%;
+  float: right;
 }
 
 .dropdown-content {
@@ -90,12 +108,13 @@ footer {
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
+  justify-content: center;
 }
 
 .social-footer li {
   display: inline-block;
-  margin-right: 10px;
-  padding: 1px;
+
+  justify-content: center;
 }
 
 /*footer social links*/
@@ -103,4 +122,6 @@ footer {
   display: inline-block;
   font-size: 50px;
   color: white;
+  justify-content: center;
+  padding: 10px;
 }
