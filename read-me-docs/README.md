@@ -222,4 +222,12 @@ added a row and columns for the about me page.
 
 added column-gap to row.
 
-starting to not like how I've set out the gallery
+starting to not like how I've set out the gallery.
+
+need to make the website mobile responsive may consider using bootstrap instead of using media queries, havent made the website mobile first which is a problem i brought upon myself but will fix it.
+
+26/12/2023
+
+going to start making the website responsive.
+
+added
