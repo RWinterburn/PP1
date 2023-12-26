@@ -235,3 +235,10 @@ added footer into mobile design also changed the nav bar into a dropdown button,
 managed to sort out the nav bar and menu button, menu button kept on dissapearing when i made it into a larger screen size, had to use px instead of %
 
 really should have made it mobile first because this is stressful
+
+managed to style the contact form and removed the message on smaller devices, aboslutely despise the drop down menu so going to go back to the old nav bar design and make things smaller. added the gallery but need to change dimensions etc.
+
+to do list
+fix about section with double column and just make one column
+fix gallery dimensions
+make different break points in media queries putting in old design

@@ -74,12 +74,14 @@ body {
 .dropdown-content {
   display: none;
   position: relative;
-  background-color: rgba(250, 235, 215, 0.349);
-  min-width: 160px;
+  background-color: rgb(250, 235, 215);
+
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   float: right;
-  width: 50px;
+  width: 50%;
   height: 100%;
+  right: 10%;
+  margin-top: -5%;
 }
 
 .dropdown-content a {
@@ -112,7 +114,7 @@ footer {
 }
 
 .social-footer {
-  margin-top: 10%;
+  margin-top: 10px;
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
@@ -162,8 +164,7 @@ footer {
 
 /*contact form*/
 
-.contact-form-message {
-}
+
 
 .form {
   position: absolute;
@@ -178,11 +179,12 @@ footer {
   left: 10%;
   top: 15%;
   align-items: center
-
-  margin-top: ;
+  
+  
+  margin-top: 0;
   margin-bottom: auto;
   border-radius: 5%;
-  border: solid;
+  border:solid;
   border-width: 2px;
   border-color: aliceblue;
 }
@@ -207,4 +209,44 @@ footer {
   padding: 10px;
   color: #ffffff;
  
+}
+
+/*gallery*/
+div.scroll-container {
+  background-color: rgba(250, 235, 215, 0.205);
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  position: relative;
+  top: 10%;
+ 
+  height: 500px;
+  margin: 0;
+  
+  border-radius: 10px;
+  align-content: center;
+}
+
+div.scroll-container img {
+  height: fit-content;
+  width: fit-content;
+  width: 500px;
+  height: 400px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.gallery-text-scroll {
+  position: absolute;
+  left: 475px;
+  margin-top: 100px;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: larger;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: solid;
+  border-width: 2px;
+  border-radius: 10px;
 }
