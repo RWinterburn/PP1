@@ -231,3 +231,5 @@ need to make the website mobile responsive may consider using bootstrap instead 
 going to start making the website responsive.
 
 added footer into mobile design also changed the nav bar into a dropdown button, restyling all the content for mobile
+
+managed to sort out the nav bar and menu button, menu button kept on dissapearing when i made it into a larger screen size, had to use px instead of %
