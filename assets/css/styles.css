@@ -34,7 +34,7 @@ nav {background-color:  rgba(26, 24, 21, 0.733) ;
   color: rgb(255, 255, 255);
   padding: 1px;
   position: relative;
-  top: 20px;
+  top: -10px;
   margin: 10px auto;
   text-align: center;
   border-top: 3px solid #ffffff;
@@ -45,8 +45,8 @@ nav {background-color:  rgba(26, 24, 21, 0.733) ;
 nav ul {
   list-style-type: none;
   display: flex;
-  width: 100vw; /* Set the width to the full viewport width */
-  justify-content: center; /* Center the flex items horizontally */
+  width: 100vw; 
+  justify-content: center; 
   align-items: center;
   margin: 0;
   padding: 0;
@@ -232,3 +232,9 @@ div.scroll-container img {
   border-width: 2px;
   border-radius: 10px;
 }
+
+.nav-container h1 {background-color: rgba(26, 24, 21, 0.733);
+color: white;
+padding: 10px;
+margin:0;
+font-size: large;}
