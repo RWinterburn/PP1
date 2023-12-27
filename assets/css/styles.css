@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Poppins:wght@300&family=Rethink+Sans&family=Roboto:wght@300&display=swap");
 
 .container {
-  width: 100%;
+  width: 100vw;
 }
 body {
   font-family: poppins, roboto;
@@ -12,18 +12,8 @@ body {
 
 /*background mobile*/
 
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: -1;
 
-  width: 100%;
-}
+
 
 body {
   background-image: url(../imgs/background.JPG);
@@ -34,6 +24,8 @@ body {
   background-attachment: fixed;
   overflow-y: scroll;
   width: 100%;
+margin: 0;
+padding: 0;
 }
 
 /* top header*/
@@ -66,9 +58,7 @@ nav ul {
   align-items: center;
 }
 
-nav ul li {
 
-}
 
 nav ul li a {
   font-size: 1rem;
