@@ -37,67 +37,56 @@ body {
 }
 
 /* top header*/
-.nav-container {
-  padding: 0;
-}
-
-.nav-bar {
-  display: flex;
-  width: 100%;
-  background-color: rgba(250, 235, 215, 0.349);
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.nav-bar h1 {
-  padding: 10px;
-  margin-top: 10px;
-  margin-left: 5px;
-  font-size: 1rem;
-}
-/*dropdown menu nav*/
-
-/* code from https://reintech.io/blog/creating-responsive-dropdown-menu-css */
-.dropbtn {
-  background-color: rgba(250, 235, 215, 0.349);
-  color: rgb(255, 255, 255);
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  position: relative;
-  right: 10px;
-  border-radius: 10%;
-  margin-left: 80%;
-  top: -66px;
-}
-
-.dropdown-content {
-  display: none;
-  position: relative;
-  background-color: rgb(250, 235, 215);
-
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  float: right;
-  width: 50%;
-  height: 100%;
-  right: 10%;
-  margin-top: -5%;
-}
-
-.dropdown-content a {
-  position: relative;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+/* nav bar */
+nav {
   justify-content: center;
-  margin-top: 0;
-  z-index: 2;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  padding: 1px;
+
+  width: 450px;
+  position: relative;
+  left: -2px;
+  top: 20px;
+margin-right: auto;
+margin-left: auto;
+  margin-top: 10px;
+  margin: 0 auto;
+
+  align-items: center;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+nav ul {
+  list-style-type: none;
+  display: flex;
+ 
+  align-items: center;
 }
+
+nav ul li {
+
+}
+
+nav ul li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(250, 235, 215, 0.349);
+}
+
+.nav-container h1 {font-size: 1rem;
+margin-left: 2px;}
 
 /*footer*/
 
@@ -105,7 +94,7 @@ footer {
   background-color: rgba(250, 235, 215, 0.349);
   color: white;
 
-  position: absolute;
+  position: fixed;
   bottom: 0;
 
   text-align: center;
@@ -121,6 +110,7 @@ footer {
   justify-content: center;
 }
 
+.social-footer ul {align-items: center;}
 .social-footer li {
   display: inline-block;
 
@@ -136,9 +126,10 @@ footer {
   padding: 10px;
 }
 
-.copyright {
+.copyright {font-size: 10px;
   padding: 0;
   margin: 0;
+  align-items: center;
 }
 /* about me page */
 
