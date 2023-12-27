@@ -243,3 +243,5 @@ fix about section with double column and just make one column
 fix gallery dimensions
 make different break points in media queries putting in old design
 need to sort out gallery as it is taking up the page and making the resizing space weird
+
+managed to make the website mobile responsive using vw vh and changing some elements to % instead of using px
