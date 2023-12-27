@@ -37,8 +37,8 @@ nav {background-color:  rgba(26, 24, 21, 0.733) ;
   top: 20px;
   margin: 10px auto;
   text-align: center;
-  border: 3px solid #ffffff;
-  border-radius: 10px;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
   overflow: hidden;
 }
 
@@ -198,7 +198,7 @@ div.scroll-container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
-  height: 500px;
+  height: 40%;
   width: 80%; 
   margin: 0;
   border-radius: 10px;
@@ -218,7 +218,10 @@ div.scroll-container img {
 
 .gallery-text-scroll {
   position: relative; 
-  margin-top: 100px;
+ 
+ left: 25%;
+  top:23px;
+  margin: 0;
   width: 50%;
   text-align: center;
   letter-spacing: 2px;
