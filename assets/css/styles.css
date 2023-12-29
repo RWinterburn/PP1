@@ -125,6 +125,8 @@ footer {
   padding:8px;
   bottom:100px;
   position: relative;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .intro-text{ color: #ffffff;
@@ -134,6 +136,7 @@ footer {
 
 
 .intro-container img{
+  
   float:left;
   height:200px;
 width: 150px;
