@@ -119,19 +119,27 @@ footer {
 }
 
 /*intro page*/
-.intro-section{background-color: rgba(26, 24, 21, 0.733);
- position: relative;
-width: 250px;
-height: 150px;
-align-items: center;}
+.intro-container{
+  margin: 150px auto;
+  width: 60%;
+  padding:8px;
+  bottom:100px;
+  position: relative;
+}
+
+.intro-text{ color: #ffffff;
+  background-color: rgba(26, 24, 21, 0.733) }
 
 
 
-.intro-img{height: 100px;
-width: 100px;
-position: relative;
-left: 100%;
-bottom: 100px;}
+
+.intro-container img{
+  float:left;
+  height:200px;
+width: 150px;
+padding: 0 10px 0 0;}
+
+
 
 
 
