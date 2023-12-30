@@ -48,7 +48,7 @@ nav ul {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -77,6 +77,13 @@ nav ul li a:hover {
   font-size: large;
 }
 
+.nav-home {
+  text-decoration: none;
+
+  padding: 2px;
+  border-radius: 5px;
+  color: #ffffff;
+}
 /*footer*/
 
 footer {
@@ -152,7 +159,7 @@ footer {
   padding: 0 10px 0 0;
 }
 
-/* about me page */
+/* packages page */
 
 .row {
   width: 50%;
@@ -181,8 +188,8 @@ footer {
 /*contact form*/
 
 .form {
-  margin: 150px auto;
-  width: 50%;
+  margin: 160px auto;
+  width: 250px;
 
   bottom: 50px;
   position: relative;
