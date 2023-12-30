@@ -3,17 +3,15 @@
 .container {
   width: 100vw;
 }
-body {width: 100vw;
+body {
+  width: 100vw;
   font-family: "Poppins", roboto;
 
-  margin: 0;
+  margin: auto 0;
   padding: 0;
 }
 
 /*background mobile*/
-
-
-
 
 body {
   background-image: url(../imgs/background.JPG);
@@ -24,13 +22,14 @@ body {
   background-attachment: fixed;
   overflow-y: scroll;
   width: 100vw;
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* top header*/
 /* nav bar */
-nav {background-color:  rgba(26, 24, 21, 0.733) ;
+nav {
+  background-color: rgba(26, 24, 21, 0.733);
   color: rgb(255, 255, 255);
   padding: 1px;
   position: relative;
@@ -40,13 +39,14 @@ nav {background-color:  rgba(26, 24, 21, 0.733) ;
   border-top: 3px solid #ffffff;
   border-bottom: 3px solid #ffffff;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
-  width: 100vw; 
-  justify-content: center; 
+  width: 100%;
+  justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -70,8 +70,11 @@ nav ul li a:hover {
 }
 
 .nav-container h1 {
-  font-size: 1rem;
-  margin-left: 2px;
+  background-color: rgba(26, 24, 21, 0.733);
+  color: white;
+  padding: 10px;
+  margin: 0;
+  font-size: large;
 }
 
 /*footer*/
@@ -81,7 +84,7 @@ footer {
   color: white;
 
   position: fixed;
-  bottom: 0;
+  bottom: 0vh;
 
   text-align: center;
 
@@ -89,14 +92,17 @@ footer {
 }
 
 .social-footer {
-  margin-top: 10px;
+  bottom: 0vh;
+
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
   justify-content: center;
 }
 
-.social-footer ul {align-items: center;}
+.social-footer ul {
+  align-items: center;
+}
 .social-footer li {
   display: inline-block;
 
@@ -112,39 +118,39 @@ footer {
   padding: 10px;
 }
 
-.copyright {font-size: 10px;
-  padding: 0;
-  margin: 0;
+.copyright {
+  font-size: 10px;
+
   align-items: center;
 }
 
 /*intro page*/
-.intro-container{
+.intro-container {
   margin: 150px auto;
   width: 60%;
-  padding:8px;
-  bottom:100px;
+
+  bottom: 100px;
   position: relative;
   justify-content: center;
   overflow-x: hidden;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgba(63, 60, 55, 0.733);
 }
 
-.intro-text{ color: #ffffff;
-  background-color: rgba(26, 24, 21, 0.733) }
+.intro-text {
+  color: #ffffff;
+  background-color: rgba(26, 24, 21, 0.733);
+}
 
+.intro-container img {
+  position: relative;
 
-
-
-.intro-container img{
-  
-  float:left;
-  height:200px;
-width: 150px;
-padding: 0 10px 0 0;}
-
-
-
-
+  float: left;
+  height: 200px;
+  width: 150px;
+  padding: 0 10px 0 0;
+}
 
 /* about me page */
 
@@ -161,36 +167,34 @@ padding: 0 10px 0 0;}
   column-gap: 5px;
 }
 .column {
+  color: #ffffff;
   flex: 50%;
-  background-color: rgba(26, 24, 21, 0.733) ;
+  background-color: rgba(26, 24, 21, 0.733);
   width: 50%;
   padding: 5%;
   border-radius: 5px;
 }
+#photos {
+  display: none;
+}
 
 /*contact form*/
 
-
-
 .form {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  padding-top: 50px;
+  margin: 150px auto;
+  width: 50%;
+
+  bottom: 50px;
+  position: relative;
+  justify-content: center;
+  overflow-x: hidden;
+  padding-top: 30px;
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: rgba(26, 24, 21, 0.733) ;
-  width: 50%;
-  left: 10%;
-  top: 15%;
-  align-items: center
-  
-  
-  margin-top: 0;
-  margin-bottom: auto;
+  background-color: rgba(26, 24, 21, 0.733);
   border-radius: 5%;
-  border:solid;
+  border: solid;
   border-width: 2px;
   border-color: aliceblue;
 }
@@ -198,37 +202,42 @@ padding: 0 10px 0 0;}
 .form label {
   display: block;
   margin-bottom: 8px;
- 
+
   font-size: larger;
   font-weight: 300;
   color: #ffffff;
 }
 
 .message {
-  display: none;
-  position: absolute;
-  right: 50%;
-  bottom: 25%;
-  background-color:  rgba(26, 24, 21, 0.733) ;
+  margin: auto;
+  position: relative;
+  overflow-x: hidden;
+  width: 250px;
+  bottom: 630px;
+  background-color: rgba(26, 24, 21, 0.733);
   border-radius: 5%;
-  font-size: 40px;
-  padding: 10px;
+  border-style: solid;
+  font-size: 40%;
+  padding: 5px;
   color: #ffffff;
- 
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  align-items: center;
+  text-align: center;
 }
 
 /*gallery*/
 div.scroll-container {
-  background-color: rgba(26, 24, 21, 0.733) ;
+  background-color: rgba(26, 24, 21, 0.733);
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   height: 40%;
-  width: 80%; 
+  width: 80%;
   margin: 0;
   border-radius: 10px;
   align-content: center;
@@ -237,22 +246,19 @@ div.scroll-container {
 div.scroll-container img {
   height: fit-content;
   width: fit-content;
-  max-width: 100%; 
+  max-width: 100%;
   height: 400px;
   padding-top: 30px;
   padding-bottom: 10px;
   display: block;
-  margin: 0 auto; 
-
+  margin: 0 auto;
 }
 
-
-
 .gallery-text-scroll {
-  position: relative; 
- 
- left: 25%;
-  top:23px;
+  position: relative;
+
+  left: 25%;
+  top: 23px;
   margin: 0;
   width: 50%;
   text-align: center;
@@ -264,9 +270,3 @@ div.scroll-container img {
   border-width: 2px;
   border-radius: 10px;
 }
-
-.nav-container h1 {background-color: rgba(26, 24, 21, 0.733);
-color: white;
-padding: 10px;
-margin:0;
-font-size: large;}
