@@ -183,8 +183,6 @@ footer {
 }
 
 .row {
-  overflow-x: none;
-
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -468,8 +466,6 @@ div.scroll-container {
   /*contact form*/
 
   .row {
-    overflow-x: none;
-
     width: 50%;
     display: flex;
     flex-direction: row;
