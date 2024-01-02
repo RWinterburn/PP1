@@ -308,8 +308,6 @@ div.scroll-container img {
 
 /*tiny devices*/
 @media (max-width: 557px) {
-  .customer-reviews {
-  }
 }
 
 /*tablets*/
@@ -581,4 +579,3 @@ div.scroll-container img {
     border-radius: 5px;
   }
 }
-/*tablet media queries*/
