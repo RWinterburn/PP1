@@ -336,6 +336,18 @@ div.scroll-container img {
     align-content: center;
   }
 
+  .equipment-list {
+    background-color: rgba(255, 153, 0, 0.733);
+    position: relative;
+    left: 55%;
+    width: 250px;
+    top: 80px;
+    padding: 10px;
+    font-size: larger;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+
   /*contact form*/
 
   .row {
