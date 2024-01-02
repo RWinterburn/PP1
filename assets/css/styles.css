@@ -133,6 +133,7 @@ footer {
 }
 
 /*intro page*/
+
 .intro-container {
   margin: 150px auto;
   width: 60%;
@@ -318,10 +319,20 @@ div.scroll-container img {
   }
 
   /*hero*/
+
+  .hero-text {
+    background-color: rgba(26, 24, 21, 0.733);
+    color: #ffffff;
+    border-style: solid;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+  }
+
   .customer-reviews {
     background-color: rgba(26, 24, 21, 0.733);
     position: relative;
-    left: 25%;
+    left: 23%;
     width: 50%;
     height: 50%;
     bottom: 250px;
@@ -369,11 +380,21 @@ div.scroll-container img {
   }
 
   /*intro page*/
+  .hero-text {
+    position: absolute;
+    left: 40%;
+    background-color: rgba(26, 24, 21, 0.733);
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
   .intro-container {
     margin: 150px auto;
     width: 40%;
 
-    bottom: 100px;
+    bottom: 20px;
     position: relative;
     right: 25%;
     justify-content: center;
@@ -403,7 +424,7 @@ div.scroll-container img {
     position: absolute;
     left: 50%;
     width: 500px;
-    top: 150px;
+    top: 220px;
     padding: 10px;
     font-size: larger;
     color: #ffffff;
