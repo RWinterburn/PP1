@@ -305,14 +305,54 @@ div.scroll-container img {
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+/*tablets*/
+@media (max-width: 1171px) {
   .map {
     display: none;
+  }
+
+  .customer-reviews {
+    background-color: rgba(26, 24, 21, 0.733);
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 40%;
+    top: 40%;
+    padding: 5px;
+    font-size: medium;
+    color: #ffffff;
+    border-radius: 10px;
+    z-index: 99;
+    text-align: center;
+  }
+
+  .customer-reviews h4 {
+    text-decoration: underline;
+  }
+
+  .map-text {
+    margin: 0 auto;
+    position: relative;
+    bottom: 200px;
+
+    width: 250px;
+
+    background-color: rgba(26, 24, 21, 0.733);
+    border-radius: 5%;
+    border-style: solid;
+    font-size: 40%;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    align-items: center;
+    text-align: center;
+    z-index: 99;
   }
 }
 
 /* media queries desktop */
-@media (min-width: 993px) {
+@media (min-width: 1172px) {
   /*body desktop*/
   body {
     overflow-y: scroll;
