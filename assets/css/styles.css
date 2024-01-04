@@ -2,19 +2,14 @@
 
 .container {
   width: 100vw;
+  overflow-x: hidden;
 }
 body {
-  overflow-y: scroll;
   width: 100vw;
   font-family: "Poppins", roboto;
   overflow-x: hidden;
   margin: auto 0;
   padding: 0;
-}
-
-/*background mobile*/
-
-body {
   background-image: url(../imgs/background.JPG);
   overflow-x: hidden;
   background-size: cover;
@@ -34,6 +29,7 @@ nav {
   color: rgb(255, 255, 255);
   padding: 1px;
   position: relative;
+  width: 100%;
   top: -10px;
   margin: 10px auto;
   text-align: center;
@@ -90,10 +86,10 @@ nav ul li a:hover {
 footer {
   background-color: rgb(26, 24, 21);
   color: white;
-
+  height: 60px;
   position: fixed;
   bottom: 0vh;
-
+  padding: 0;
   text-align: center;
 
   width: 100%;
@@ -101,7 +97,7 @@ footer {
 
 .social-footer {
   bottom: 0vh;
-
+  padding: 0;
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
@@ -120,16 +116,20 @@ footer {
 /*footer social links*/
 .social-footer li a {
   display: inline-block;
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   justify-content: center;
-  padding: 10px;
+  padding-left: 20px;
+  position: relative;
+  bottom: 15px;
 }
 
 .copyright {
   font-size: 10px;
+  justify-content: center;
 
-  align-items: center;
+  position: relative;
+  bottom: 50px;
 }
 
 /*intro page*/
