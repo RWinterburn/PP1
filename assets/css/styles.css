@@ -328,10 +328,9 @@ div.scroll-container {
   .customer-reviews {
     background-color: rgba(26, 24, 21, 0.733);
     position: relative;
-    left: 23%;
-    width: 50%;
+    margin: 5%;
     height: 50%;
-    bottom: 250px;
+    bottom: 150px;
     padding: 5px;
     font-size: medium;
     color: #ffffff;
