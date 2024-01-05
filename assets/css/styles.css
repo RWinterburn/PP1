@@ -180,10 +180,7 @@ footer {
   border-width: 2px;
   border-radius: 5px;
 }
-.package-container {
-  margin: 0;
-  overflow-x: hidden;
-}
+
 .row {
   width: 50%;
   display: flex;
@@ -299,11 +296,15 @@ footer {
   border-width: 2px;
   border-radius: 10px;
 }
+
+.equip-list h4 {
+  text-align: center;
+}
 .equip-list {
   position: relative;
   left: 50%;
   transform: translatex(-50%);
-  text-align: center;
+  justify-content: center;
   margin-bottom: 20%;
   background-color: rgba(26, 24, 21, 0.733);
   color: #ffffff;
