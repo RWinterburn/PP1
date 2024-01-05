@@ -17,7 +17,6 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   overflow-y: scroll;
-  width: 100vw;
   margin: 0;
   padding: 0;
 }
@@ -93,6 +92,8 @@ footer {
   text-align: center;
   margin-top: auto;
   width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .social-footer {
@@ -258,35 +259,28 @@ footer {
 }
 
 /*gallery*/
-div.scroll-container {
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10%;
   background-color: rgba(26, 24, 21, 0.733);
-  overflow: auto;
-  white-space: nowrap;
   padding: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 40%;
-  width: 80%;
-  margin: 0;
   border-radius: 10px;
-  align-content: center;
+  overflow-x: hidden;
 }
 
-.scroll-container img {
-  height: 500px;
+.gallery-container img {
   width: 500px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  display: block;
-  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .gallery-text-scroll {
   position: relative;
-
-  left: 25%;
+  justify-content: center;
+  left: 50%;
+  transform: translatex(-50%);
   top: 23px;
   margin: 0;
   width: 50%;
@@ -300,9 +294,18 @@ div.scroll-container {
   border-width: 2px;
   border-radius: 10px;
 }
+.gallery-text-scroll ul {
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
 
 /*tiny devices*/
-@media (max-width: 557px) {
+@media (max-width: 650px) {
+  .gallery-container img {
+    width: 250px;
+    overflow-x: hidden;
+  }
 }
 
 /*tablets*/
@@ -362,10 +365,6 @@ div.scroll-container {
     letter-spacing: 0.5px;
     align-items: center;
     text-align: center;
-  }
-
-  .equipment-list {
-    display: none;
   }
 }
 
@@ -450,18 +449,6 @@ div.scroll-container {
     margin: 0;
     border-radius: 10px;
     align-content: center;
-  }
-
-  .equipment-list {
-    background-color: rgba(26, 24, 21, 0.733);
-    position: relative;
-    left: 55%;
-    width: 250px;
-    top: 80px;
-    padding: 10px;
-    font-size: larger;
-    color: #ffffff;
-    border-radius: 10px;
   }
 
   /*contact form*/

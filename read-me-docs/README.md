@@ -254,3 +254,9 @@ wedding photo from https://stocksnap.io/author/birchlandinghome Birch Landing Ho
 things to do:
 add media queries
 add a map on the contact section
+
+05/01/2023
+
+gallery tutorial from https://www.youtube.com/watch?v=Trw_9lisYVY&t=45s
+
+transform: translatex(-50%); from https://www.codeguage.com/courses/css/transformations-translation#:~:text=translateX(%2D50%25)%20moves,to%20overlap%20with%20one%20another.

@@ -294,3 +294,30 @@ div.scroll-container img {
       </div>
     </header>
     <div>*/
+
+
+
+      div.scroll-container {
+        background-color: rgba(26, 24, 21, 0.733);
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 40%;
+        width: 80%;
+        margin: 0;
+        border-radius: 10px;
+        align-content: center;
+      }
+      
+      .scroll-container img {
+        height: 500px;
+        width: 500px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+      }
