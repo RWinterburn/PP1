@@ -231,8 +231,14 @@ footer {
   align-items: center;
   text-align: center;
   margin: 10%;
+  letter-spacing: 1px;
 }
-
+.map {
+  margin: 10%;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10%;
+}
 /*gallery*/
 .gallery-container {
   display: flex;
