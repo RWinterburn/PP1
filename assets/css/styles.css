@@ -220,6 +220,7 @@ footer {
   padding: 10px;
 }
 .form {
+  align-items: center;
   width: 20%;
 }
 
@@ -231,15 +232,10 @@ footer {
   position: relative;
   align-items: center;
   text-align: center;
-  margin: 10%;
+  margin: 0% 10% 30% 10%;
   letter-spacing: 1px;
 }
-.map {
-  margin: 10%;
-  align-items: center;
-  padding: 10px;
-  border-radius: 10%;
-}
+
 /*gallery*/
 .gallery-container {
   display: flex;
@@ -305,23 +301,29 @@ footer {
   text-align: center;
 }
 
-/*tiny devices*/
+/*mobile devices*/
 @media (max-width: 650px) {
   .gallery-container img {
     width: 250px;
     overflow-x: hidden;
     margin: auto;
   }
+
+  /*contact page*/
+
   .map {
     display: none;
   }
 }
 
+@media (max-width: 450px) {
+  .contact-column {
+    align-items: first baseline;
+  }
+}
 /*tablets*/
 @media (max-width: 1171px) {
   /*contact*/
-  .map {
-  }
 
   /*hero*/
 
