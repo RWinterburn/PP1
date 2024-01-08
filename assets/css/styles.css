@@ -138,6 +138,7 @@ footer {
   overflow-x: hidden;
   position: relative;
   left: 25%;
+  margin-top: 5px;
 }
 
 .intro-container {
@@ -492,10 +493,11 @@ footer {
     position: relative;
     align-items: center;
     text-align: center;
-    margin: 0% 10% 30% 10%;
+    margin: auto;
     letter-spacing: 1px;
     width: 20%;
-    left: 30%;
+    left: 25%;
+    bottom: 500px;
   }
 
   /*packages page*/
