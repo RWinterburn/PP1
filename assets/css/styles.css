@@ -221,9 +221,17 @@ footer {
 }
 .form {
   align-items: center;
-  width: 20%;
+  width: 100%;
 }
 
+/*form input size figured out here https://www.quora.com/How-do-you-make-the-input-box-bigger-in-HTML*/
+.input {
+  width: 100%;
+}
+.send-button {
+  font-family: "Poppins";
+  border-radius: 10px;
+}
 .map-text {
   background-color: rgba(26, 24, 21, 0.733);
   color: #ffffff;
@@ -443,6 +451,48 @@ footer {
   }
 
   /*contact form*/
+  .contact-column {
+    left: 30%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    position: relative;
+    align-items: center;
+    background-color: rgba(26, 24, 21, 0.733);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+  }
+  .form {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  /*form input size figured out here https://www.quora.com/How-do-you-make-the-input-box-bigger-in-HTML*/
+  .input {
+    width: 100%;
+  }
+
+  label {
+    font-size: larger;
+  }
+
+  .map-text {
+    background-color: rgba(26, 24, 21, 0.733);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin: 0% 10% 30% 10%;
+    letter-spacing: 1px;
+    width: 20%;
+    left: 30%;
+  }
 
   /*packages page*/
 
