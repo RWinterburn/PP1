@@ -4,6 +4,7 @@
   width: 100vw;
   overflow-x: hidden;
 }
+
 body {
   width: 100vw;
   font-family: "Poppins", roboto;
@@ -17,8 +18,15 @@ body {
   margin: 0;
   padding: 0;
 }
+/*header*/
+.header {
+  text-decoration: none;
+  width: 100%;
+  padding: 2px;
+  border-radius: 5px;
+  color: #ffffff;
+}
 
-/* top header*/
 /* nav bar */
 nav {
   background-color: rgba(26, 24, 21, 0.733);
@@ -34,7 +42,6 @@ nav {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -44,11 +51,9 @@ nav ul {
   margin: auto;
   padding: 0;
 }
-
 nav ul li {
   margin: 0;
 }
-
 nav ul li a {
   font-size: 1rem;
   text-decoration: none;
@@ -57,11 +62,9 @@ nav ul li a {
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
-
 nav ul li a:hover {
   background-color: rgba(250, 235, 215, 0.349);
 }
-
 .nav-container h1 {
   background-color: rgba(26, 24, 21, 0.733);
   color: white;
@@ -70,15 +73,7 @@ nav ul li a:hover {
   font-size: large;
 }
 
-.header {
-  text-decoration: none;
-  width: 100%;
-  padding: 2px;
-  border-radius: 5px;
-  color: #ffffff;
-}
 /*footer*/
-
 footer {
   background-color: rgb(26, 24, 21);
   color: white;
@@ -92,7 +87,6 @@ footer {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
 .social-footer {
   bottom: 0vh;
   padding: 0;
@@ -102,13 +96,11 @@ footer {
   justify-content: center;
   position: relative;
 }
-
 .social-footer ul {
   align-items: center;
 }
 .social-footer li {
   display: inline-block;
-
   justify-content: center;
 }
 
@@ -122,11 +114,9 @@ footer {
   position: relative;
   bottom: 15px;
 }
-
 .copyright {
   font-size: 10px;
   justify-content: center;
-
   position: relative;
   bottom: 50px;
 }
@@ -158,11 +148,9 @@ footer {
 }
 
 /* packages page */
-
 .packages-text {
   position: relative;
   overflow-x: hidden;
-
   left: 25%;
   top: 15%;
   margin: 0;
@@ -177,7 +165,6 @@ footer {
   border-width: 2px;
   border-radius: 5px;
 }
-
 .row {
   width: 50%;
   display: flex;
@@ -193,7 +180,6 @@ footer {
 }
 .column {
   color: #ffffff;
-
   background-color: rgba(26, 24, 21, 0.733);
   width: 50%;
   padding: 5%;
@@ -206,7 +192,6 @@ footer {
 }
 
 /*contact form*/
-
 .contact-column {
   overflow-x: hidden;
   display: flex;
@@ -219,11 +204,11 @@ footer {
   border-radius: 10px;
   padding: 10px;
 }
+
 .form {
   align-items: center;
   width: 100%;
 }
-
 /*form input size figured out here https://www.quora.com/How-do-you-make-the-input-box-bigger-in-HTML*/
 .input {
   width: 100%;
@@ -232,6 +217,7 @@ footer {
   font-family: "Poppins";
   border-radius: 10px;
 }
+
 .map-text {
   background-color: rgba(26, 24, 21, 0.733);
   color: #ffffff;
@@ -247,7 +233,6 @@ footer {
   text-decoration: none;
   color: #ffffff;
 }
-
 /*transition hover found from this website https://css-tricks.com/almanac/properties/t/transition*/
 .map-text a:hover {
   background-color: rgba(250, 235, 215, 0.349);
@@ -269,13 +254,11 @@ footer {
   border-width: 2px;
   border-radius: 10px;
 }
-
 .gallery-container img {
   width: 500px;
   overflow-x: hidden;
   margin: auto;
 }
-
 .gallery-text-scroll {
   position: relative;
   justify-content: center;
@@ -328,7 +311,6 @@ footer {
   }
 
   /*contact page*/
-
   .map {
     display: none;
   }
@@ -339,12 +321,10 @@ footer {
     align-items: first baseline;
   }
 }
+
 /*tablets*/
 @media (max-width: 1171px) {
-  /*contact*/
-
   /*hero*/
-
   .hero-text {
     background-color: rgba(26, 24, 21, 0.733);
     color: #ffffff;
@@ -359,7 +339,6 @@ footer {
     background-color: rgba(26, 24, 21, 0.733);
     position: relative;
     margin: 5%;
-
     margin-bottom: 30%;
     height: 60%;
     bottom: 50%;
@@ -368,7 +347,6 @@ footer {
     color: #ffffff;
     border-radius: 10px;
     overflow-y: hidden;
-
     text-align: center;
   }
 
@@ -438,7 +416,6 @@ footer {
   }
 
   /*gallery*/
-
   div.scroll-container {
     background-color: rgba(26, 24, 21, 0.733);
     overflow: auto;
@@ -470,6 +447,7 @@ footer {
     padding: 10px;
     width: 20%;
   }
+
   .form {
     text-align: center;
     align-content: center;
@@ -501,10 +479,8 @@ footer {
   }
 
   /*packages page*/
-
   .packages-text {
     position: relative;
-
     left: 25%;
     top: 15%;
     margin: 0;
