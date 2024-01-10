@@ -122,6 +122,26 @@ footer {
   bottom: 50px;
 }
 
+/*heading text all pages*/
+
+.heading-text {
+  position: relative;
+  overflow-x: hidden;
+  left: 25%;
+  top: 15%;
+  margin: 0;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: small;
+  background-color: rgba(26, 24, 21, 0.733);
+  color: #ffffff;
+  text-transform: uppercase;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
 /*intro page*/
 .intro-img {
   width: 50%;
@@ -149,23 +169,7 @@ footer {
 }
 
 /* packages page */
-.packages-text {
-  position: relative;
-  overflow-x: hidden;
-  left: 25%;
-  top: 15%;
-  margin: 0;
-  width: 50%;
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: small;
-  background-color: rgba(26, 24, 21, 0.733);
-  color: #ffffff;
-  text-transform: uppercase;
-  border: solid;
-  border-width: 2px;
-  border-radius: 5px;
-}
+
 .row {
   width: 50%;
   display: flex;
@@ -479,8 +483,8 @@ footer {
     bottom: 500px;
   }
 
-  /*packages page*/
-  .packages-text {
+  /*heading text across all pages*/
+  .heading-text {
     position: relative;
     left: 25%;
     top: 15%;
