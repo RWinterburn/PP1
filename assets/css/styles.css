@@ -14,7 +14,7 @@ body {
   background-position: center 30%;
   background-repeat: repeat;
   background-attachment: fixed;
-  overflow-y: scroll;
+
   margin: 0;
   padding: 0;
 }
@@ -364,7 +364,6 @@ footer {
 @media (min-width: 1172px) {
   /*body desktop*/
   body {
-    overflow-y: scroll;
   }
 
   /*index page*/

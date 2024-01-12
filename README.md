@@ -8,7 +8,7 @@ Winterburn Photography is a website showcasing, recent work by the photographer,
    ![image](readme-screenshots/nav%20bar.jpg "navigation bar")
 2. permanent footer at the bottom of the page to display the copyright and social media links that open up with seperate tabs using the target \_blank attribute.
    ![image](readme-screenshots/footer.jpg "footer")
-3. A contact form to get in touch with the company including name, email and message with the form set to required so the user can't send blank messages name or invalid email address. The original structure of the form was borrowed from chat.gpt but the whole styling got changed due to aesthetic not fitting with the webpage.
+3. A contact form to get in touch with the company including name, email and message with the form set to required so the user can't send blank messages name or invalid email address. The original structure of the form was borrowed from chat.gpt but the whole styling got changed due to aesthetic not fitting with the webpage. Responsive on different devices, Achieved by media queries.
    ![image](readme-screenshots/form.jpg "form")
-4. A gallery so the user can look at the recent images that the company has produced and encourages the user to have more incentive to get in touch with the company.
+4. A gallery so the user can look at the recent images that the company has produced and encourages the user to have more incentive to get in touch with the company. The gallery is fully responsive on all devices.
    ![image](readme-screenshots/gallery.jpg "gallery")
