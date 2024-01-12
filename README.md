@@ -4,4 +4,4 @@ Winterburn Photography is a website showcasing, recent work by the photographer,
 
 # Features Listed
 
-![image](features/features/footer.jpg footer)
+![image](readme-screenshots/nav%20bar.jpg)
