@@ -39,6 +39,15 @@ Packages page wireframe mobile.
 ![image](read-me-docs/wireframe-pictures-basic/contact-mobile.png "contact page wireframe mobile")
 Contact page wireframe mobile.
 
+# UI Structure
+
+# Future features
+For the future features I would like to add a shop page to the website where the user can click on the image and buy the image from the website and for it to be printed onto a canvas.
+
+
+# Testing 
+
+## W3C Validation 
 
 
 
