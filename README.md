@@ -48,6 +48,55 @@ For the future features I would like to add a shop page to the website where the
 # Testing 
 
 ## W3C Validation 
+At first the webpage was not valid as seen by this screenshot here ![image](readme-screenshots/errors-validation.png "errors validation")
+Managed to fix these few errors here are the results ![image](readme-screenshots/fixed-bugs.png "valid html")
+
+Here are the validation images for the CSS and HTML ![image](readme-screenshots/valid-css-html.png "valid css and html")
+![image](readme-screenshots/valid-css.png "valid css")
+
+# Planes
+### Strategy Plane
+The site objectives are to showcase what Winterburn Photography can provide with a Gallery and equipment list also to show users where they can get in touch if they want any photos taken in the future and also a package list to show what different photography packages that the company has to offer. 
+
+### Scope Plane 
+To achieve the websites objectives to navigate through the different pages of the website it will need a Navigation bar, I've included a Header with a clickable link to take you back to the main page aswell. The website also needs a gallery section to showcase the photographers work with an information bar underneath the gallery section to show what equipment the company has to offer. It will also need a contact form for the users to communicate directly with the owner to organise a photo shoot. Package cards will also be created to show the user what different packages the company has on offer.
+
+### Surface Plane 
+The main design for the website will have the font color in #fff and background elements in rgba(26, 24, 21, 0.733) to make the text stand out and be visually appealing the main body of the page will feature an image taken by the photographer to make it more streamlined for the companies purpose. The main font will be "poppins" because that is a common and nice font family. For the mobile design all content will be centered so it is an easy scrollable experience for the user and the desktop page will be more spaced out between elements so the seperate content can breathe a little. 
+
+# Technologies Used 
+Font Awesome
+Balsamiq WireFrames
+HTML 
+CSS
+Code Anywhere 
+Gitpod.io
+Github.com
+Git
+
+# Image Credits
+From my own camera (Robert Winterburn)
+
+# Tutorials Used
+https://www.youtube.com/watch?v=Trw_9lisYVY&t=45s for the gallery
+
+The HTML gallery being off center found code from https://blog.hubspot.com/website/center-div-css
+margin: 0;
+width: 50%;
+
+Old design of scrollable gallery code was found on here https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp
+
+Found solution for page not scrolling here https://www.quora.com/Why-cant-I-scroll-on-my-HTML-website-1#:~:text=There%20are%20a%20few%20possible%20reasons%20why%20you%20are%20not,%2Dheight'%20set%20too%20low.
+
+
+Fixed background image changing on different page using "background attachment fixed" found this line of code on
+https://www.w3schools.com/cssref/pr_background-position.php
+
+Used Chat.GPT to make me a basic structure of the form and modified it for my needs.
+
+
+
+
 
 
 
