@@ -12,3 +12,34 @@ Winterburn Photography is a website showcasing, recent work by the photographer,
    ![image](readme-screenshots/form.jpg "form")
 4. A gallery so the user can look at the recent images that the company has produced and encourages the user to have more incentive to get in touch with the company. The gallery is fully responsive on all devices.
    ![image](readme-screenshots/gallery.jpg "gallery")
+
+   # WireFrames Desktop
+    ![image](read-me-docs/wireframe-pictures-basic/index.png "index wireframe desktop")
+    Here is the wireframe for the main index page, it is a bit different from the final result as the website wasn't mobile friendly at the start so I modified it to make it more mobile friendly. 
+
+    ![image](read-me-docs/wireframe-pictures-basic/gallery.png "gallery wireframe desktop")
+    The Gallery wireframe.
+
+    ![image](read-me-docs/wireframe-pictures-basic/about.png "packages wireframe desktop")
+    Packages/about wireframe desktop.
+
+    ![image](read-me-docs/wireframe-pictures-basic/contact.png "contact page wireframe desktop")
+    Contact page wireframe desktop. 
+
+# Wireframes Mobile
+![image](read-me-docs/wireframe-pictures-basic/index-mobile.png "index page wireframe mobile")
+index page wireframe mobile.
+
+![image](read-me-docs/wireframe-pictures-basic/gallery-mobile.png "gallery page wireframe mobile")
+Gallery page wireframe mobile.
+
+![image](read-me-docs/wireframe-pictures-basic/mobile-packages.png "packages page wireframe mobile")
+Packages page wireframe mobile.
+
+![image](read-me-docs/wireframe-pictures-basic/contact-mobile.png "contact page wireframe mobile")
+Contact page wireframe mobile.
+
+
+
+
+    
