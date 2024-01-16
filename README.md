@@ -3,17 +3,20 @@
 Winterburn Photography is a website showcasing, recent work by the photographer, giving information about the packages they offer, what work they have recently done shown by a gallery, customer reviews and showing how you can get in touch. In the website the user will learn how to get in touch with the contact page, what equipment can be used and what the results look like with the gallery page, learn what packages are currently on offer with time frames with the amount of hours shown on the page in the package cards and how many photos they can choose to have, on the main index page the user will learn what the website is about and what previous customers have said about their photography experience with Winterburn Photography.
 
 # User Stories
+The purpose of the website is to encourage the user to book a photoshoot with the photographer with the contact form, show the user what the photographer has been taking pictures of with the gallery and for the user to learn a bit more about the photographer in general with the main page and show previous experience with customers with the customer reviews. The main target audience will be for people wanting a wedding shoot or headshots but other shoots can be provided.
 
 
-# Planes
-### Strategy Plane
+# UX Design
+
 The site objectives are to showcase what Winterburn Photography can provide with a Gallery and equipment list also to show users where they can get in touch if they want any photos taken in the future and also a package list to show what different photography packages that the company has to offer. 
 
-### Scope Plane 
+
 To achieve the websites objectives to navigate through the different pages of the website it will need a Navigation bar, I've included a Header with a clickable link to take you back to the main page aswell. The website also needs a gallery section to showcase the photographers work with an information bar underneath the gallery section to show what equipment the company has to offer. It will also need a contact form for the users to communicate directly with the owner to organise a photo shoot. Package cards will also be created to show the user what different packages the company has on offer.
 
-### Surface Plane 
+The information will be displayed on the dark background elements to make it stand out from the main background image of the website.
 The main design for the website will have the font color in #fff and background elements in rgba(26, 24, 21, 0.733) to make the text stand out and be visually appealing the main body of the page will feature an image taken by the photographer to make it more streamlined for the companies purpose. The main font will be "poppins" because that is a common and nice font family. For the mobile design all content will be centered so it is an easy scrollable experience for the user and the desktop page will be more spaced out between elements so the seperate content can breathe a little. 
+
+
 
 
  # WireFrames Desktop
@@ -61,6 +64,7 @@ Google Fonts
 Balsamiq WireFrames
 HTML 
 CSS
+VSCode
 Code Anywhere 
 Gitpod.io
 Github.com
@@ -102,12 +106,19 @@ To manual test the contact form you will need to.
   *Try send a message without a message if it comes up with "Please fill out this field" then the form is working as it should.
 
 ## W3C Validation 
-At first the webpage was not valid as seen by this screenshot here ![image](documents/errors-validation.png "errors validation")
-Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results ![image](documents/fixed-bugs.png "valid html")
+Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results. 
+![image](documents/fixed-bugs.png "valid html")
 
 Here are the validation images for the CSS and HTML ![image](documents/valid-css-html.png "valid css and html")
-![image](documents/valid-css.png "valid css")
+![image](documents/valid-css.png "valid css") 
 
+# Challenges and Bugs
+The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
+At first the webpage was not valid as seen by this screenshot here ![image](documents/errors-validation.png "errors validation")
+
+I ran into another problem on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet.
+
+# Deployment and Development
 
 
 
@@ -131,7 +142,7 @@ https://www.w3schools.com/cssref/pr_background-position.php
 
 Used Chat.GPT for other sources of information. E.g. correct form format.
 
-# Image Credits
+## Image Credits
 From my own camera (Robert Winterburn)
 
 
