@@ -71,15 +71,39 @@ Font Awesome
 
 
 # Manual testing 
-To manual test the Navigation bar links you will need to click on the navigation bar links and see if they take you to the right page.
-* Gallery should take you to the "gallery page" where you will see the gallery and equipment list.
-* Packages should take you to the "packages page" where you will see the different packages on offer for the website.
-* Contact should take you to the "contact page" where you will see the contact form and contact numbers and address for the company.
-* To get back to the main page you will need to click on "Winterburn Photography" in the header and that should take you back to the main page. 
+
+### Navigation Bar
+To manual test the navigation bar links you will need to click on the navigation bar links and see if they take you to the right page.
+*Gallery should take you to the "gallery page" where you will see the gallery and equipment list.
+*Packages should take you to the "packages page" where you will see the different packages on offer for the website.
+*Contact should take you to the "contact page" where you will see the contact form and contact numbers and address for the company.
+*To get back to the main page you will need to click on "Winterburn Photography" in the header and that should take you back to the main page. 
+They should work on each indvidual page you click on.
+
+### Footer links 
+To manual test the footer links, you should click on the footer logos.
+*The Facebook logo should take you to Facebook.
+*The Instagram logo should take you to Instagram.
+*The YouTube logo should take you to YouTube.
+
+These should work for all different pages e.g. if they work on the main page they should work for the Gallery page etc.
+
+Note that these will just take you to the landing page as there is no actual social media sites for Winterburn Photography.
+
+### Contact Form
+To manual test the contact form you will need to. 
+*Go to "contact" on the navigation bar
+*Fill out the form with everything filled in including a valid "@" email.
+*If done correctly the form should take you to this page. 
+![image](documents/form-submission.png "form submission message")
+
+ *Try send a message without a name if it comes up with "Please fill out this field" then the form is working as it should.
+  *Try send a message without an email if it comes up with "Please fill out this field" then the form is working as it should.
+  *Try send a message without a message if it comes up with "Please fill out this field" then the form is working as it should.
 
 ## W3C Validation 
 At first the webpage was not valid as seen by this screenshot here ![image](documents/errors-validation.png "errors validation")
-Managed to fix these few errors here are the results ![image](documents/fixed-bugs.png "valid html")
+Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results ![image](documents/fixed-bugs.png "valid html")
 
 Here are the validation images for the CSS and HTML ![image](documents/valid-css-html.png "valid css and html")
 ![image](documents/valid-css.png "valid css")
@@ -105,7 +129,7 @@ Found solution for page not scrolling here https://www.quora.com/Why-cant-I-scro
 Fixed background image changing on different page using "background attachment fixed" found this line of code on
 https://www.w3schools.com/cssref/pr_background-position.php
 
-Used Chat.GPT to make me a basic structure of the form and modified it for my needs.
+Used Chat.GPT for other sources of information. E.g. correct form format.
 
 # Image Credits
 From my own camera (Robert Winterburn)
