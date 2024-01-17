@@ -166,6 +166,7 @@ footer {
   padding: 5px;
   color: #ffffff;
   background-color:  rgba(26, 24, 21, 0.925);
+  text-align: center;
 }
 
 /* packages page */
@@ -353,7 +354,7 @@ footer {
   }
 
   .intro-img {
-    left: 5%;
+    left: 10%;
     width: 30%;
     margin: 10px;
     bottom: 0px;
@@ -379,7 +380,7 @@ footer {
   .customer-reviews {
     background-color: rgba(26, 24, 21, 0.925);
     position: absolute;
-    left: 60%;
+    left: 55%;
     width: 500px;
     top: 230px;
     padding: 10px;

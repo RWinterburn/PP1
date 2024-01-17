@@ -180,7 +180,10 @@ https://www.w3schools.com/cssref/pr_background-position.php
 Used Chat.GPT for other sources of information. E.g. correct form format.
 
 ## Image Credits
-From my own camera (Robert Winterburn)
+From my own camera (Robert Winterburn) 
+
+
+add lighthouse report and link to final page
 
 
 
