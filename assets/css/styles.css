@@ -454,15 +454,13 @@ footer {
   }
 
   .form {
-    text-align: center;
     align-content: center;
     width: 100%;
   }
 
   /*form input size figured out here https://www.quora.com/How-do-you-make-the-input-box-bigger-in-HTML*/
   .input {
-    width: 100%;
-  }
+    width: 100%;}
 
   label {
     font-size: larger;
