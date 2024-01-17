@@ -7,10 +7,10 @@ The purpose of the website is to encourage the user to book a photoshoot with th
 
 ### Project goals 
 
-*Show information about the photographer.
-*Show what the photographer has produced.
-*Show different packages on offer for the user.
-*Show how to get in contact with the photographer.
+* Show information about the photographer.
+* Show what the photographer has produced.
+* Show different packages on offer for the user.
+* Show how to get in contact with the photographer.
 
 
 # UX Design
@@ -85,17 +85,17 @@ Font Awesome
 
 ### Navigation Bar
 To manual test the navigation bar links you will need to click on the navigation bar links and see if they take you to the right page.
-*Gallery should take you to the "gallery page" where you will see the gallery and equipment list.
-*Packages should take you to the "packages page" where you will see the different packages on offer for the website.
-*Contact should take you to the "contact page" where you will see the contact form and contact numbers and address for the company.
-*To get back to the main page you will need to click on "Winterburn Photography" in the header and that should take you back to the main page. 
-They should work on each indvidual page you click on.
+* Gallery should take you to the "gallery page" where you will see the gallery and equipment list.
+* Packages should take you to the "packages page" where you will see the different packages on offer for the website.
+* Contact should take you to the "contact page" where you will see the contact form and contact numbers and address for the company.
+* To get back to the main page you will need to click on "Winterburn Photography" in the header and that should take you back to the main page. 
+* They should work on each indvidual page you click on.
 
 ### Footer links 
 To manual test the footer links, you should click on the footer logos.
-*The Facebook logo should take you to Facebook.
-*The Instagram logo should take you to Instagram.
-*The YouTube logo should take you to YouTube.
+* The Facebook logo should take you to Facebook.
+* The Instagram logo should take you to Instagram.
+* The YouTube logo should take you to YouTube.
 
 These should work for all different pages e.g. if they work on the main page they should work for the Gallery page etc.
 
@@ -103,14 +103,14 @@ Note that these will just take you to the landing page as there is no actual soc
 
 ### Contact Form
 To manual test the contact form you will need to. 
-*Go to "contact" on the navigation bar
-*Fill out the form with everything filled in including a valid "@" email.
-*If done correctly the form should take you to this page. 
+* Go to "contact" on the navigation bar
+* Fill out the form with everything filled in including a valid "@" email.
+* If done correctly the form should take you to this page. 
 ![image](documents/form-submission.png "form submission message")
 
- *Try send a message without a name if it comes up with "Please fill out this field" then the form is working as it should.
-  *Try send a message without an email if it comes up with "Please fill out this field" then the form is working as it should.
-  *Try send a message without a message if it comes up with "Please fill out this field" then the form is working as it should.
+ * Try send a message without a name if it comes up with "Please fill out this field" then the form is working as it should.
+  * Try send a message without an email if it comes up with "Please fill out this field" then the form is working as it should.
+  * Try send a message without a message if it comes up with "Please fill out this field" then the form is working as it should.
 
 ## W3C Validation 
 Managed to fix these few errors by finding the lines of code referenced on the page and removing the stray tags and correctly formating the code. Here are the results. 
@@ -130,39 +130,39 @@ I ran into another problem on my Github, I had made a previous account called "T
 ### Deployment 
 
 To deploy the website the user must 
-*Log in to Github.com.
-*Go to "settings".
-*Click "pages" under "codes and automation".
-*Select "deploy from a branch" and select the "main" branch.
-*Then select "/(root)" 
-*Click "save" to save the Github page source.
-*Go to "code".
-*Click on the yellow circle on the page repository.
-*You will see the backend working on building the website when this is complete go to "settings"
-*Click "pages" 
-*You should see the website link https://rwinterburn.github.io/PP1/
-*Click on the link and you will see the website.
+* Log in to Github.com.
+* Go to "settings".
+* Click "pages" under "codes and automation".
+* Select "deploy from a branch" and select the "main" branch.
+* Then select "/(root)" 
+* Click "save" to save the Github page source.
+* Go to "code".
+* Click on the yellow circle on the page repository.
+* You will see the backend working on building the website when this is complete go to "settings"
+* Click "pages" 
+* You should see the website link https://rwinterburn.github.io/PP1/
+* Click on the link and you will see the website.
 
 ### Development 
 For future development go to https://github.com/RWinterburn/PP1
-*Click the green "code" button.
-*Copy the URL
-*Go to your cloud based coding site. e.g. Code Anywhere or Gitpod.io
-*click on "new workspace". 
-*Paste in the repository URL
-*Click create and it will create the code space for you.
+* Click the green "code" button.
+* Copy the URL
+* Go to your cloud based coding site. e.g. Code Anywhere or Gitpod.io
+* click on "new workspace". 
+* Paste in the repository URL
+* Click create and it will create the code space for you.
 
 #### VSCode Development
-*Click the green "code" button.
-*Copy the URL
-*Open "command palette in VSCode (CTRL + SHIFT + P)
-*Click the option "Git Clone"
-*Click "clone from Github"
-*Paste in the Repository URL 
-*Hit Enter 
-*A window will pop up on your computer asking you to choose you repository destination, choose an appropriate folder. 
-*Select the repository destination and the workspace will click open. 
-*You may get the option saying "Do you trust this author? click Yes"
+* Click the green "code" button.
+* Copy the URL
+* Open "command palette in VSCode (CTRL + SHIFT + P)
+* Click the option "Git Clone"
+* Click "clone from Github"
+* Paste in the Repository URL 
+* Hit "Enter"
+* A window will pop up on your computer asking you to choose you repository destination, choose an appropriate folder. 
+* Select the repository destination and the workspace will click open. 
+* You may get the option saying "Do you trust this author? click Yes"
 
 
 
