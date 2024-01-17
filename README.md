@@ -5,6 +5,13 @@ Winterburn Photography is a website showcasing, recent work by the photographer,
 # User Stories
 The purpose of the website is to encourage the user to book a photoshoot with the photographer with the contact form, show the user what the photographer has been taking pictures of with the gallery and for the user to learn a bit more about the photographer in general with the main page and show previous experience with customers with the customer reviews. The main target audience will be for people wanting a wedding shoot or headshots but other shoots can be provided.
 
+### Project goals 
+
+*Show information about the photographer.
+*Show what the photographer has produced.
+*Show different packages on offer for the user.
+*Show how to get in contact with the photographer.
+
 
 # UX Design
 
@@ -116,9 +123,50 @@ Here are the validation images for the CSS and HTML ![image](documents/valid-css
 The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
 At first the webpage was not valid as seen by this screenshot here ![image](documents/errors-validation.png "errors validation")
 
-I ran into another problem on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet.
+I ran into another problem on my Github, I had made a previous account called "Twinwinter" on my email address robertwinterburn@hotmail.co.uk and I had made a new account to make my name a bit more professional and readable (RWinterburn) but when I started making commits they came from "Twinwinter" on one and "RWinterburn" from another I don't know wether it was to do with me from switching from gitpod.io and codeanywhere to VScode need to figure this problem out for future developments as I haven't figured it out yet. So you will see commits from both of my Github accounts.
 
-# Deployment and Development
+# Deployment and Development 
+
+### Deployment 
+
+To deploy the website the user must 
+*Log in to Github.com.
+*Go to "settings".
+*Click "pages" under "codes and automation".
+*Select "deploy from a branch" and select the "main" branch.
+*Then select "/(root)" 
+*Click "save" to save the Github page source.
+*Go to "code".
+*Click on the yellow circle on the page repository.
+*You will see the backend working on building the website when this is complete go to "settings"
+*Click "pages" 
+*You should see the website link https://rwinterburn.github.io/PP1/
+*Click on the link and you will see the website.
+
+### Development 
+For future development go to https://github.com/RWinterburn/PP1
+*Click the green "code" button.
+*Copy the URL
+*Go to your cloud based coding site. e.g. Code Anywhere or Gitpod.io
+*click on "new workspace". 
+*Paste in the repository URL
+*Click create and it will create the code space for you.
+
+#### VSCode Development
+*Click the green "code" button.
+*Copy the URL
+*Open "command palette in VSCode (CTRL + SHIFT + P)
+*Click the option "Git Clone"
+*Click "clone from Github"
+*Paste in the Repository URL 
+*Hit Enter 
+*A window will pop up on your computer asking you to choose you repository destination, choose an appropriate folder. 
+*Select the repository destination and the workspace will click open. 
+*You may get the option saying "Do you trust this author? click Yes"
+
+
+
+
 
 
 
