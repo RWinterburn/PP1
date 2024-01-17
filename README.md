@@ -153,6 +153,7 @@ For future development go to https://github.com/RWinterburn/PP1
 * Click create and it will create the code space for you.
 
 #### VSCode Development
+For future development go to https://github.com/RWinterburn/PP1
 * Click the green "code" button.
 * Copy the URL
 * Open "command palette in VSCode (CTRL + SHIFT + P)
@@ -164,26 +165,14 @@ For future development go to https://github.com/RWinterburn/PP1
 * Select the repository destination and the workspace will click open. 
 * You may get the option saying "Do you trust this author? click Yes"
 
-
-
-
-
-
-
-
-
-
 # Tutorials Used
 https://www.youtube.com/watch?v=Trw_9lisYVY&t=45s for the gallery
 
 The HTML gallery being off center found code from https://blog.hubspot.com/website/center-div-css
-margin: 0;
-width: 50%;
 
 Old design of scrollable gallery code was found on here https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp
 
 Found solution for page not scrolling here https://www.quora.com/Why-cant-I-scroll-on-my-HTML-website-1#:~:text=There%20are%20a%20few%20possible%20reasons%20why%20you%20are%20not,%2Dheight'%20set%20too%20low.
-
 
 Fixed background image changing on different page using "background attachment fixed" found this line of code on
 https://www.w3schools.com/cssref/pr_background-position.php
