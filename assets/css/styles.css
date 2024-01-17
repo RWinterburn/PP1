@@ -30,7 +30,7 @@ body {
 
 /* nav bar */
 nav {
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color:  rgba(26, 24, 21, 0.925);
   color: rgb(255, 255, 255);
   padding: 1px;
   position: relative;
@@ -67,7 +67,7 @@ nav ul li a:hover {
   background-color: rgba(250, 235, 215, 0.349);
 }
 .nav-container h1 {
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color: rgba(26, 24, 21, 0.925);
   color: white;
   padding: 10px;
   margin: 0;
@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 /*footer*/
 footer {
-  background-color: rgb(26, 24, 21);
+  background-color:  rgba(26, 24, 21, 0.925);
   color: white;
   height: 60px;
   position: fixed;
@@ -84,7 +84,7 @@ footer {
   padding: 0;
   text-align: center;
   margin-top: auto;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -134,7 +134,7 @@ footer {
   text-align: center;
   letter-spacing: 2px;
   font-size: small;
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color:  rgba(26, 24, 21, 0.925);
   color: #ffffff;
   text-transform: uppercase;
   border: solid;
@@ -165,7 +165,7 @@ footer {
 .intro-text {
   padding: 5px;
   color: #ffffff;
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color:  rgba(26, 24, 21, 0.925);
 }
 
 /* packages page */
@@ -185,14 +185,12 @@ footer {
 }
 .column {
   color: #ffffff;
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color: rgba(26, 24, 21, 0.925);
   width: 50%;
   padding: 5%;
   border-radius: 5px;
   margin-bottom: 100px;
   color: #ffffff;
-  border: solid;
-  border-width: 2px;
   border-radius: 10px;
 }
 
@@ -204,7 +202,7 @@ footer {
   margin: 10%;
   position: relative;
   align-items: center;
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color: rgba(26, 24, 21, 0.925);
   color: #ffffff;
   border-radius: 10px;
   padding: 10px;
@@ -224,7 +222,7 @@ footer {
 }
 
 .map-text {
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color:  rgba(26, 24, 21, 0.925);
   color: #ffffff;
   padding: 10px;
   border-radius: 10px;
@@ -251,12 +249,10 @@ footer {
   justify-content: center;
   text-align: center;
   margin: 10%;
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color: rgba(26, 24, 21, 0.925);
   padding: 10px;
   overflow-x: hidden;
   color: #ffffff;
-  border: solid;
-  border-width: 2px;
   border-radius: 10px;
 }
 .gallery-container img {
@@ -264,24 +260,7 @@ footer {
   overflow-x: hidden;
   margin: auto;
 }
-.gallery-text-scroll {
-  position: relative;
-  justify-content: center;
-  left: 50%;
-  transform: translatex(-50%);
-  top: 23px;
-  margin: 0;
-  width: 50%;
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: larger;
-  background-color: rgba(26, 24, 21, 0.733);
-  color: #ffffff;
-  text-transform: uppercase;
-  border: solid;
-  border-width: 2px;
-  border-radius: 10px;
-}
+
 
 .equip-list h4 {
   text-align: center;
@@ -293,11 +272,9 @@ footer {
   transform: translatex(-50%);
   justify-content: center;
   margin-bottom: 20%;
-  background-color: rgba(26, 24, 21, 0.733);
+  background-color:  rgba(26, 24, 21, 0.925);
   color: #ffffff;
   text-transform: uppercase;
-  border: solid;
-  border-width: 2px;
   border-radius: 10px;
   overflow-x: hidden;
   width: 90%;
@@ -331,9 +308,8 @@ footer {
 @media (max-width: 1171px) {
   /*hero/ intro text*/
   .hero-text {
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color:  rgba(26, 24, 21, 0.925);
     color: #ffffff;
-    border-style: solid;
     margin: 0;
     padding: 5px;
     text-align: center;
@@ -341,7 +317,7 @@ footer {
   }
 
   .customer-reviews {
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color: rgba(26, 24, 21, 0.925);
     position: relative;
     margin: 5%;
     margin-bottom: 30%;
@@ -371,9 +347,8 @@ footer {
   .hero-text {
     position: relative;
     text-align: center;
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color:  rgba(26, 24, 21, 0.925);
     color: #ffffff;
-    border-style: solid;
     border-radius: 10px;
     padding: 5px;
   }
@@ -398,14 +373,14 @@ footer {
 
   .intro-text {
     color: #ffffff;
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color:  rgba(26, 24, 21, 0.925);
     font-size: 20px;
   }
 
   .customer-reviews {
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color: rgba(26, 24, 21, 0.925);
     position: absolute;
-    left: 50%;
+    left: 60%;
     width: 500px;
     top: 230px;
     padding: 10px;
@@ -414,6 +389,7 @@ footer {
     border-radius: 10px;
     z-index: 99;
     text-align: center;
+    margin: 0;
   }
 
   .customer-reviews h4 {
@@ -422,7 +398,7 @@ footer {
 
   /*gallery*/
   div.scroll-container {
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color:  rgba(26, 24, 21, 0.925);
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -446,7 +422,7 @@ footer {
     margin: 10%;
     position: relative;
     align-items: center;
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color:  rgba(26, 24, 21, 0.925);
     color: #ffffff;
     border-radius: 10px;
     padding: 10px;
@@ -457,7 +433,6 @@ footer {
     align-content: center;
     width: 100%;
   }
-
   /*form input size figured out here https://www.quora.com/How-do-you-make-the-input-box-bigger-in-HTML*/
   .input {
     width: 100%;}
@@ -467,7 +442,7 @@ footer {
   }
 
   .map-text {
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color: rgba(26, 24, 21, 0.925);
     color: #ffffff;
     padding: 10px;
     border-radius: 10px;
@@ -478,7 +453,7 @@ footer {
     letter-spacing: 1px;
     width: 20%;
     left: 25%;
-    bottom: 500px;
+    bottom: 515px;
   }
 
   /*heading text across all pages*/
@@ -491,7 +466,7 @@ footer {
     text-align: center;
     letter-spacing: 2px;
     font-size: medium;
-    background-color: rgba(26, 24, 21, 0.733);
+    background-color:  rgba(26, 24, 21, 0.925);
     color: #ffffff;
     text-transform: uppercase;
     border: solid;
