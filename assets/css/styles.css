@@ -8,7 +8,7 @@
 body {
   width: 100vw;
   font-family: "Poppins", "roboto";
-  background-image: url(../imgs/background.JPG);
+  background-image: url(../imgs/background-image.jpg);
   overflow-x: hidden;
   background-size: cover;
   background-position: center 30%;
