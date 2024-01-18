@@ -61,7 +61,7 @@ Contact page wireframe mobile.
 3. A contact form to get in touch with the company including name, email and message with the form set to required so the user can't send blank messages name or invalid email address. The original structure of the form was borrowed from chat.gpt but the whole styling got changed due to aesthetic not fitting with the webpage. Responsive on different devices, Achieved by media queries.
    ![image](documents/form.jpg "form")
 4. A gallery so the user can look at the recent images that the company has produced and encourages the user to have more incentive to get in touch with the company. The gallery is fully responsive on all devices.
-   ![image](documents/gallery.jpg "gallery")
+   ![image](documents/gallery-updated.jpg "gallery")
 
 ## Future features
  For the future features I would like to add a shop page to the website where the user can click on the image and buy the image from the website and for it to be printed onto a canvas.
