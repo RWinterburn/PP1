@@ -184,6 +184,7 @@ From my own camera (Robert Winterburn)
 
 
 add lighthouse report and link to final page
+add am i responsive pictures
 
 
 
