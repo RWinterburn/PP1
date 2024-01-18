@@ -1,6 +1,6 @@
 # Winterburn Photography
 
-Winterburn Photography is a website showcasing, recent work by the photographer, giving information about the packages they offer, what work they have recently done shown by a gallery, customer reviews and showing how you can get in touch. In the website the user will learn how to get in touch with the contact page, what equipment can be used and what the results look like with the gallery page, learn what packages are currently on offer with time frames with the amount of hours shown on the page in the package cards and how many photos they can choose to have, on the main index page the user will learn what the website is about and what previous customers have said about their photography experience with Winterburn Photography.
+Winterburn Photography is a website showcasing, recent work by the photographer, giving information about the packages they offer, what work they have recently done shown by a gallery, customer reviews and showing how you can get in touch. In the website the user will learn how to get in touch with the contact page, what equipment can be used and what the results look like with the gallery page, learn what packages are currently on offer with time frames with the amount of hours shown on the page in the package cards and how many photos they can choose to have, on the main index page the user will learn what the website is about and what previous customers have said about their photography experience with Winterburn Photography. [here is the website](https://rwinterburn.github.io/PP1/)
 
 # User Stories
 The purpose of the website is to encourage the user to book a photoshoot with the photographer with the contact form, show the user what the photographer has been taking pictures of with the gallery and for the user to learn a bit more about the photographer in general with the main page and show previous experience with customers with the customer reviews. The main target audience will be for people wanting a wedding shoot or headshots but other shoots can be provided.
@@ -21,7 +21,8 @@ The site objectives are to showcase what Winterburn Photography can provide with
 To achieve the websites objectives to navigate through the different pages of the website it will need a Navigation bar, I've included a Header with a clickable link to take you back to the main page aswell. The website also needs a gallery section to showcase the photographers work with an information bar underneath the gallery section to show what equipment the company has to offer. It will also need a contact form for the users to communicate directly with the owner to organise a photo shoot. Package cards will also be created to show the user what different packages the company has on offer.
 
 The information will be displayed on the dark background elements to make it stand out from the main background image of the website.
-The main design for the website will have the font color in #fff and background elements in rgba(26, 24, 21, 0.733) to make the text stand out and be visually appealing the main body of the page will feature an image taken by the photographer to make it more streamlined for the companies purpose. The main font will be "poppins" because that is a common and nice font family. For the mobile design all content will be centered so it is an easy scrollable experience for the user and the desktop page will be more spaced out between elements so the seperate content can breathe a little. 
+The main design for the website will have the font color in #fff (white) and background elements in rgba(26, 24, 21, 0.733) (Dark black) to make the text stand out and be visually appealing the main body of the page will feature an image taken by the photographer to make it more streamlined for the companies purpose. The main font will be "poppins" because that is a common and nice font family. For the mobile design all content will be centered so it is an easy scrollable experience for the user and the desktop page will be more spaced out between elements so the seperate content can breathe a little. 
+
 
 
 
@@ -67,16 +68,17 @@ Contact page wireframe mobile.
  For the future features I would like to add a shop page to the website where the user can click on the image and buy the image from the website and for it to be printed onto a canvas.
 
 # Technologies Used 
-Google Fonts
-Balsamiq WireFrames
-HTML 
-CSS
-VSCode
-Code Anywhere 
-Gitpod.io
-Github.com
-Git
-Font Awesome
+* Google Fonts
+* Balsamiq WireFrames
+* HTML 
+* CSS
+* VSCode
+* Code Anywhere 
+* Gitpod.io
+* Github.com
+* Git
+* Font Awesome
+* Am I reponsive
 
 
 
@@ -118,6 +120,13 @@ Managed to fix these few errors by finding the lines of code referenced on the p
 
 Here are the validation images for the CSS and HTML ![image](documents/valid-css-html.png "valid css and html")
 ![image](documents/valid-css.png "valid css") 
+
+### Am I Responsive 
+![image](documents/am-i-responsive.png)
+
+### Lighthouse Report 
+![image](documents/lighthouse-report.png)
+Lighthouse report looks good on everything except for performance, this will be due to the raw image sizes unfortunately but everything else looks good.
 
 # Challenges and Bugs
 The only bugs I got were unclosed elements and stray tags. Some titles weren't formatted correctly which you can see here.
