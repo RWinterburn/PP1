@@ -78,7 +78,7 @@ Contact page wireframe mobile.
 * Github.com
 * Git
 * Font Awesome
-* Am I reponsive
+* Am I Reponsive
 
 
 
@@ -192,8 +192,7 @@ Used Chat.GPT for other sources of information. E.g. correct form format.
 From my own camera (Robert Winterburn) 
 
 
-add lighthouse report and link to final page
-add am i responsive pictures
+
 
 
 
