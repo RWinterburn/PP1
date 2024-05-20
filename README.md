@@ -192,7 +192,12 @@ Used Chat.GPT for other sources of information. E.g. correct form format.
 From my own camera (Robert Winterburn) 
 
 
+## To Do list
 
+edit read me designed for the project 2,
+make the quiz responsive with media queries 
+make the quiz look better 
+maybe make the quiz h1 element bigger?
 
 
 
