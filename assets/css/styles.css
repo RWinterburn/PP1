@@ -28,9 +28,36 @@ body {
   color: #ffffff;
 }
 
+#video {
+  width: 50%;
+  height: 50%;
+  border: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  position: sticky;
+  left: 25%;
+  margin-bottom: 10%;
+
+}
+
+#drone-footage {
+  margin: 0;
+  text-align: center;
+  background-color: rgba(26, 24, 21, 0.925);
+  color: white;
+  padding: 2px;
+  margin: 0;
+  font-size: large;
+  width: 50%;
+  left: 25%;
+  position: relative;
+
+
+}
+
 /* nav bar */
 nav {
-  background-color:  rgba(26, 24, 21, 0.925);
+  background-color: rgba(26, 24, 21, 0.925);
   color: rgb(255, 255, 255);
   padding: 1px;
   position: relative;
@@ -43,6 +70,7 @@ nav {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -52,9 +80,11 @@ nav ul {
   margin: auto;
   padding: 0;
 }
+
 nav ul li {
   margin: 0;
 }
+
 nav ul li a {
   font-size: 1rem;
   text-decoration: none;
@@ -63,9 +93,11 @@ nav ul li a {
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
+
 nav ul li a:hover {
   background-color: rgba(250, 235, 215, 0.349);
 }
+
 .nav-container h1 {
   background-color: rgba(26, 24, 21, 0.925);
   color: white;
@@ -76,7 +108,7 @@ nav ul li a:hover {
 
 /*footer*/
 footer {
-  background-color:  rgba(26, 24, 21, 0.925);
+  background-color: rgba(26, 24, 21, 0.925);
   color: white;
   height: 60px;
   position: fixed;
@@ -88,6 +120,7 @@ footer {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
 .social-footer {
   bottom: 0vh;
   padding: 0;
@@ -97,9 +130,11 @@ footer {
   justify-content: center;
   position: relative;
 }
+
 .social-footer ul {
   align-items: center;
 }
+
 .social-footer li {
   display: inline-block;
   justify-content: center;
@@ -115,6 +150,7 @@ footer {
   position: relative;
   bottom: 15px;
 }
+
 .copyright {
   font-size: 10px;
   justify-content: center;
@@ -134,7 +170,7 @@ footer {
   text-align: center;
   letter-spacing: 2px;
   font-size: small;
-  background-color:  rgba(26, 24, 21, 0.925);
+  background-color: rgba(26, 24, 21, 0.925);
   color: #ffffff;
   text-transform: uppercase;
   border: solid;
@@ -165,7 +201,7 @@ footer {
 .intro-text {
   padding: 5px;
   color: #ffffff;
-  background-color:  rgba(26, 24, 21, 0.925);
+  background-color: rgba(26, 24, 21, 0.925);
   text-align: center;
 }
 
@@ -184,6 +220,7 @@ footer {
   margin-top: 5%;
   column-gap: 5px;
 }
+
 .column {
   color: #ffffff;
   background-color: rgba(26, 24, 21, 0.925);
@@ -213,17 +250,19 @@ footer {
   align-items: center;
   width: 100%;
 }
+
 /*form input size figured out here https://www.quora.com/How-do-you-make-the-input-box-bigger-in-HTML*/
 .input {
   width: 100%;
 }
+
 .send-button {
   font-family: "Poppins";
   border-radius: 10px;
 }
 
 .map-text {
-  background-color:  rgba(26, 24, 21, 0.925);
+  background-color: rgba(26, 24, 21, 0.925);
   color: #ffffff;
   padding: 10px;
   border-radius: 10px;
@@ -233,10 +272,12 @@ footer {
   margin: 0% 10% 30% 10%;
   letter-spacing: 1px;
 }
+
 .map-text a {
   text-decoration: none;
   color: #ffffff;
 }
+
 /*transition time hover reminded from this website https://css-tricks.com/almanac/properties/t/transition*/
 .map-text a:hover {
   background-color: rgba(250, 235, 215, 0.349);
@@ -256,6 +297,7 @@ footer {
   color: #ffffff;
   border-radius: 10px;
 }
+
 .gallery-container img {
   width: 500px;
   overflow-x: hidden;
@@ -266,19 +308,21 @@ footer {
   text-align: center;
   justify-content: center;
 }
+
 .equip-list {
   position: relative;
   left: 50%;
   transform: translatex(-50%);
   justify-content: center;
   margin-bottom: 20%;
-  background-color:  rgba(26, 24, 21, 0.925);
+  background-color: rgba(26, 24, 21, 0.925);
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 10px;
   overflow-x: hidden;
   width: 90%;
 }
+
 .equip-list ul li {
   list-style-type: none;
   text-align: center;
@@ -306,9 +350,10 @@ footer {
 
 /*tablets*/
 @media (max-width: 1171px) {
+
   /*hero/ intro text*/
   .hero-text {
-    background-color:  rgba(26, 24, 21, 0.925);
+    background-color: rgba(26, 24, 21, 0.925);
     color: #ffffff;
     margin: 0;
     padding: 5px;
@@ -338,6 +383,7 @@ footer {
 
 /* media queries desktop */
 @media (min-width: 1172px) {
+
   /*body desktop*/
   body {
     overflow-y: scroll;
@@ -347,7 +393,7 @@ footer {
   .hero-text {
     position: relative;
     text-align: center;
-    background-color:  rgba(26, 24, 21, 0.925);
+    background-color: rgba(26, 24, 21, 0.925);
     color: #ffffff;
     border-radius: 10px;
     padding: 5px;
@@ -373,7 +419,7 @@ footer {
 
   .intro-text {
     color: #ffffff;
-    background-color:  rgba(26, 24, 21, 0.925);
+    background-color: rgba(26, 24, 21, 0.925);
     font-size: 20px;
   }
 
@@ -393,12 +439,12 @@ footer {
   }
 
   .customer-reviews h4 {
-   text-decoration: underline;
+    text-decoration: underline;
   }
 
   /*gallery*/
   div.scroll-container {
-    background-color:  rgba(26, 24, 21, 0.925);
+    background-color: rgba(26, 24, 21, 0.925);
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -422,7 +468,7 @@ footer {
     margin: 10%;
     position: relative;
     align-items: center;
-    background-color:  rgba(26, 24, 21, 0.925);
+    background-color: rgba(26, 24, 21, 0.925);
     color: #ffffff;
     border-radius: 10px;
     padding: 10px;
@@ -433,9 +479,11 @@ footer {
     align-content: center;
     width: 100%;
   }
+
   /*form input size figured out here https://www.quora.com/How-do-you-make-the-input-box-bigger-in-HTML*/
   .input {
-    width: 100%;}
+    width: 100%;
+  }
 
   label {
     font-size: larger;
@@ -466,7 +514,7 @@ footer {
     text-align: center;
     letter-spacing: 2px;
     font-size: medium;
-    background-color:  rgba(26, 24, 21, 0.925);
+    background-color: rgba(26, 24, 21, 0.925);
     color: #ffffff;
     text-transform: uppercase;
     border: solid;
